@@ -3,7 +3,7 @@ public class Grader {
     static final String[][] T = {
         {"1","1\nDiagonal: 1"},{"2","1 2\n4 3\nDiagonal: 4"},
         {"3","1 2 3\n8 9 4\n7 6 5\nDiagonal: 15"},
-        {"4","1 2 3 4\n12 13 14 5\n11 16 15 6\n10 9 8 7\nDiagonal: 46"},
+        {"4","1 2 3 4\n12 13 14 5\n11 16 15 6\n10 9 8 7\nDiagonal: 36"}, //fixing the bug
     };
     static String run(String in) throws Exception {
         ProcessBuilder pb=new ProcessBuilder("java","-cp","src/q03","Main");
